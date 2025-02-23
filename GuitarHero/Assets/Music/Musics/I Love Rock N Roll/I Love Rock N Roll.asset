@@ -1,0 +1,16 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c56c48f14196fc74a9a898b242e075c3, type: 3}
+  m_Name: I Love Rock N Roll
+  m_EditorClassIdentifier: 
+  musicClip: {fileID: 8300000, guid: a5ea5db88c2a62d418687b4fa7f5accb, type: 3}
+  musicNotes: {fileID: 11400000, guid: dfb5e68be9656de499848c1622634c5a, type: 2}

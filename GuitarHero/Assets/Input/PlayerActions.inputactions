@@ -1,0 +1,94 @@
+{
+    "name": "PlayerActions",
+    "maps": [
+        {
+            "name": "Gameplay",
+            "id": "f716a609-cc8d-4977-af51-3d1c97fdd0c9",
+            "actions": [
+                {
+                    "name": "Lane0",
+                    "type": "Button",
+                    "id": "1d9486a8-3be2-41b0-82f0-7db1bf7940f7",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Lane1",
+                    "type": "Button",
+                    "id": "85065968-07f2-4d53-afa6-033501135d39",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Lane2",
+                    "type": "Button",
+                    "id": "12a955d5-7ac8-44d1-887e-a771a17fdc7f",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Lane3",
+                    "type": "Button",
+                    "id": "1e2bce89-6081-4000-ad31-63d9568a1254",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "85a7c898-0288-4304-9c4d-33a74383c8d4",
+                    "path": "<Keyboard>/q",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Lane0",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "42bb5211-1dc5-436c-b09a-4dc177723d56",
+                    "path": "<Keyboard>/w",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Lane1",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "fa7e3cd9-2abb-421b-84ae-93755bba8cb4",
+                    "path": "<Keyboard>/e",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Lane2",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "4cd0932b-a231-4551-8750-f676007a2042",
+                    "path": "<Keyboard>/r",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Lane3",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
