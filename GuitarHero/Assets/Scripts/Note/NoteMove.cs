@@ -29,4 +29,9 @@ public class NoteMove : MonoBehaviour
         float distance = Vector2.Distance(initialPos.position, target.position);
         speed = distance / time.GetValue();
     }
+
+    public float GetSpeed()
+    {
+        return speed;
+    }
 }

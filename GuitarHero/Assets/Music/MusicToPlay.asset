@@ -12,4 +12,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c9d6da3e434a4cb488be7540e670d414, type: 3}
   m_Name: MusicToPlay
   m_EditorClassIdentifier: 
-  music: {fileID: 11400000, guid: a853a9fc04f20304caee6815c975fe7c, type: 2}
+  music: {fileID: 0}

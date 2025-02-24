@@ -39,7 +39,7 @@ public class GameManager : MonoBehaviour
             {
                 if (currentTime >= note.GetTime() - speedNote.GetValue() && !note.GetSpawned())
                 {
-                    SpawnNote(note.GetLane());
+                    SpawnNote(note);
 
                     note.Spawn();
                 }
@@ -47,17 +47,17 @@ public class GameManager : MonoBehaviour
         }
     }
 
-    public void SpawnNote(int index)
+    public void SpawnNote(MusicNote note)
     {
         foreach (var spawnManager in spawnManagers)
         {
-            spawnManager.SpawnNote(index);
+            spawnManager.SpawnNote(note);
         }
     }
 
     private IEnumerator WaitForStart()
     {
-        yield return new WaitForSeconds(3);
+        yield return new WaitForSeconds(1);
 
         musicPlayer.PlayMusic(music.GetAudioClip());
 

@@ -11,4 +11,9 @@ public class MusicToPlaySO : ScriptableObject
     {
         return music;
     }
+
+    public void SetMusic(MusicSO newMusic)
+    {
+        music = newMusic;
+    }
 }

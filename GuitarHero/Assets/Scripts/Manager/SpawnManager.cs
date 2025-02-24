@@ -6,8 +6,8 @@ public class SpawnManager : MonoBehaviour
 {
     [SerializeField] private SpawnNote[] spawnNotes;
 
-    public void SpawnNote(int index)
+    public void SpawnNote(MusicNote note)
     {
-        spawnNotes[index].Spawn();
+        spawnNotes[note.GetLane()].Spawn(note);
     }
 }

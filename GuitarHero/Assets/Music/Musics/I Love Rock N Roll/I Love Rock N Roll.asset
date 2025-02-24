@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: I Love Rock N Roll
   m_EditorClassIdentifier: 
   musicClip: {fileID: 8300000, guid: a5ea5db88c2a62d418687b4fa7f5accb, type: 3}
-  musicNotes: {fileID: 11400000, guid: dfb5e68be9656de499848c1622634c5a, type: 2}
+  musicNotes: {fileID: 11400000, guid: 9099ad379a5697749bc06f847e04492c, type: 2}

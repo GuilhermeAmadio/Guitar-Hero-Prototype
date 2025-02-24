@@ -40,6 +40,42 @@
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": false
+                },
+                {
+                    "name": "Player2Lane0",
+                    "type": "Button",
+                    "id": "a6ea6aed-999b-4d64-849d-68fe9889db0a",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Player2Lane1",
+                    "type": "Button",
+                    "id": "45754d7a-07a4-4963-a017-0741cc65ffde",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Player2Lane2",
+                    "type": "Button",
+                    "id": "1c08ba1c-db86-4001-8e4b-81698a7322d8",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Player2Lane3",
+                    "type": "Button",
+                    "id": "f22cd182-653c-434c-8a3b-352c814c05e6",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
                 }
             ],
             "bindings": [
@@ -84,6 +120,50 @@
                     "processors": "",
                     "groups": "",
                     "action": "Lane3",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "15486ab7-9a7e-4f54-a464-f5f9102c8a66",
+                    "path": "<Keyboard>/h",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Player2Lane0",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "b7a85d5e-fece-4e1e-94cf-c6c258a3a4a4",
+                    "path": "<Keyboard>/j",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Player2Lane1",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "a5b53b77-8dc4-43b5-8e42-70232f28f473",
+                    "path": "<Keyboard>/k",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Player2Lane2",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "c834b178-6031-4ae8-bf38-d522b558463a",
+                    "path": "<Keyboard>/l",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Player2Lane3",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }

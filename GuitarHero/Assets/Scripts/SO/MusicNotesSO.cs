@@ -18,6 +18,7 @@ public class MusicNote
 {
     public float time;
     public int lane;
+    public float duration;
 
     private bool spawned;
 
@@ -29,6 +30,11 @@ public class MusicNote
     public float GetTime()
     {
         return time;
+    }
+
+    public float GetDuration()
+    {
+        return duration;
     }
 
     public int GetLane()

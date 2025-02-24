@@ -8,9 +8,10 @@ public class SpawnNote : MonoBehaviour
 
     [SerializeField] private Transform noteTarget;
 
-    public void Spawn()
+    public void Spawn(MusicNote note)
     {
-        GameObject note = Instantiate(notePrefab, transform.position, Quaternion.identity);
-        note.GetComponent<NoteMove>().Move(noteTarget);
+        GameObject noteObj = Instantiate(notePrefab, transform.position, Quaternion.identity);
+        noteObj.GetComponent<NoteMove>().Move(noteTarget);
+        noteObj.GetComponent<Note>().SetDuration(note.GetDuration());
     }
 }
