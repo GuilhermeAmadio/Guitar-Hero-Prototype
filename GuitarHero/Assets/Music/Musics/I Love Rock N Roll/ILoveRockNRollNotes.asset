@@ -15,17 +15,628 @@ MonoBehaviour:
   musicNotes:
   - time: 1
     lane: 0
+    duration: 0
   - time: 1.2
     lane: 0
+    duration: 0
   - time: 2.2
     lane: 0
+    duration: 0
   - time: 2.4
     lane: 0
+    duration: 0
   - time: 3.4
     lane: 1
+    duration: 0
   - time: 3.6
     lane: 1
+    duration: 0
   - time: 4.6
     lane: 2
+    duration: 0
   - time: 4.8
     lane: 2
+    duration: 0
+  - time: 5.8
+    lane: 0
+    duration: 0
+  - time: 6
+    lane: 0
+    duration: 0
+  - time: 7
+    lane: 0
+    duration: 0
+  - time: 7.2
+    lane: 0
+    duration: 0
+  - time: 8.2
+    lane: 1
+    duration: 0
+  - time: 8.4
+    lane: 1
+    duration: 0
+  - time: 9.4
+    lane: 2
+    duration: 0
+  - time: 10
+    lane: 0
+    duration: 0
+  - time: 10.2
+    lane: 0
+    duration: 0
+  - time: 12.6
+    lane: 0
+    duration: 0
+  - time: 12.8
+    lane: 0
+    duration: 0
+  - time: 13.8
+    lane: 2
+    duration: 0
+  - time: 14.4
+    lane: 1
+    duration: 0
+  - time: 15
+    lane: 0
+    duration: 0
+  - time: 15.2
+    lane: 0
+    duration: 0
+  - time: 17.6
+    lane: 0
+    duration: 0
+  - time: 17.8
+    lane: 0
+    duration: 0
+  - time: 18.8
+    lane: 2
+    duration: 0
+  - time: 19.4
+    lane: 1
+    duration: 0
+  - time: 20
+    lane: 0
+    duration: 0
+  - time: 20.2
+    lane: 0
+    duration: 0
+  - time: 22.6
+    lane: 2
+    duration: 0
+  - time: 22.8
+    lane: 2
+    duration: 0
+  - time: 23.8
+    lane: 2
+    duration: 0
+  - time: 24.4
+    lane: 1
+    duration: 0
+  - time: 25
+    lane: 1
+    duration: 0
+  - time: 25.2
+    lane: 1
+    duration: 0
+  - time: 26.2
+    lane: 2
+    duration: 0
+  - time: 26.4
+    lane: 2
+    duration: 0
+  - time: 27.4
+    lane: 0
+    duration: 0
+  - time: 27.6
+    lane: 0
+    duration: 0
+  - time: 28.6
+    lane: 1
+    duration: 7
+  - time: 39.2
+    lane: 2
+    duration: 0
+  - time: 39.4
+    lane: 2
+    duration: 0
+  - time: 39.6
+    lane: 2
+    duration: 0
+  - time: 39.8
+    lane: 2
+    duration: 0
+  - time: 40
+    lane: 2
+    duration: 0
+  - time: 40.2
+    lane: 2
+    duration: 0
+  - time: 40.4
+    lane: 2
+    duration: 0
+  - time: 40.6
+    lane: 2
+    duration: 0
+  - time: 40.8
+    lane: 0
+    duration: 0
+  - time: 41
+    lane: 0
+    duration: 0
+  - time: 41.8
+    lane: 0
+    duration: 0
+  - time: 42
+    lane: 0
+    duration: 0
+  - time: 43
+    lane: 1
+    duration: 0
+  - time: 43.2
+    lane: 1
+    duration: 0
+  - time: 44.2
+    lane: 2
+    duration: 0
+  - time: 44.4
+    lane: 2
+    duration: 0
+  - time: 45.4
+    lane: 0
+    duration: 0
+  - time: 45.6
+    lane: 0
+    duration: 0
+  - time: 46.6
+    lane: 0
+    duration: 0
+  - time: 46.8
+    lane: 0
+    duration: 0
+  - time: 47.8
+    lane: 1
+    duration: 0
+  - time: 48
+    lane: 1
+    duration: 0
+  - time: 49
+    lane: 2
+    duration: 0
+  - time: 49.2
+    lane: 2
+    duration: 0
+  - time: 50.2
+    lane: 0
+    duration: 0
+  - time: 50.4
+    lane: 0
+    duration: 0
+  - time: 51
+    lane: 0
+    duration: 0
+  - time: 51.2
+    lane: 0
+    duration: 0
+  - time: 53.6
+    lane: 0
+    duration: 0
+  - time: 53.8
+    lane: 0
+    duration: 0
+  - time: 54.8
+    lane: 2
+    duration: 0
+  - time: 55.4
+    lane: 1
+    duration: 0
+  - time: 56
+    lane: 0
+    duration: 0
+  - time: 56.2
+    lane: 0
+    duration: 0
+  - time: 58.6
+    lane: 0
+    duration: 0
+  - time: 58.8
+    lane: 0
+    duration: 0
+  - time: 59.8
+    lane: 2
+    duration: 0
+  - time: 60.4
+    lane: 1
+    duration: 0
+  - time: 61
+    lane: 0
+    duration: 0
+  - time: 61.2
+    lane: 0
+    duration: 0
+  - time: 63.6
+    lane: 2
+    duration: 0
+  - time: 63.8
+    lane: 2
+    duration: 0
+  - time: 64.8
+    lane: 2
+    duration: 0
+  - time: 65.4
+    lane: 1
+    duration: 0
+  - time: 66.2
+    lane: 1
+    duration: 0
+  - time: 66.4
+    lane: 1
+    duration: 0
+  - time: 67.4
+    lane: 2
+    duration: 0
+  - time: 67.6
+    lane: 2
+    duration: 0
+  - time: 68.6
+    lane: 0
+    duration: 0
+  - time: 68.8
+    lane: 0
+    duration: 0
+  - time: 69.8
+    lane: 1
+    duration: 7
+  - time: 80.6
+    lane: 2
+    duration: 0
+  - time: 80.8
+    lane: 2
+    duration: 0
+  - time: 81
+    lane: 2
+    duration: 0
+  - time: 81.2
+    lane: 2
+    duration: 0
+  - time: 81.4
+    lane: 2
+    duration: 0
+  - time: 81.6
+    lane: 2
+    duration: 0
+  - time: 81.8
+    lane: 2
+    duration: 0
+  - time: 82
+    lane: 2
+    duration: 0
+  - time: 82.2
+    lane: 0
+    duration: 0
+  - time: 82.4
+    lane: 0
+    duration: 0
+  - time: 83.2
+    lane: 0
+    duration: 0
+  - time: 83.4
+    lane: 0
+    duration: 0
+  - time: 84.4
+    lane: 1
+    duration: 0
+  - time: 84.6
+    lane: 1
+    duration: 0
+  - time: 85.6
+    lane: 2
+    duration: 0
+  - time: 85.8
+    lane: 2
+    duration: 0
+  - time: 86.8
+    lane: 0
+    duration: 0
+  - time: 87
+    lane: 0
+    duration: 0
+  - time: 88
+    lane: 0
+    duration: 0
+  - time: 88.2
+    lane: 0
+    duration: 0
+  - time: 89.2
+    lane: 1
+    duration: 0
+  - time: 89.4
+    lane: 1
+    duration: 0
+  - time: 90.6
+    lane: 0
+    duration: 0
+  - time: 90.8
+    lane: 0
+    duration: 0
+  - time: 91.8
+    lane: 2
+    duration: 0
+  - time: 92.4
+    lane: 0
+    duration: 0
+  - time: 92.6
+    lane: 0
+    duration: 0
+  - time: 95
+    lane: 0
+    duration: 0
+  - time: 95.2
+    lane: 0
+    duration: 0
+  - time: 96.2
+    lane: 2
+    duration: 0
+  - time: 96.8
+    lane: 1
+    duration: 0
+  - time: 97.4
+    lane: 0
+    duration: 1
+  - time: 98.6
+    lane: 0
+    duration: 0
+  - time: 98.8
+    lane: 1
+    duration: 0
+  - time: 99.4
+    lane: 0
+    duration: 0
+  - time: 100
+    lane: 2
+    duration: 0
+  - time: 100.6
+    lane: 2
+    duration: 1
+  - time: 101.8
+    lane: 0
+    duration: 0
+  - time: 102.8
+    lane: 1
+    duration: 0
+  - time: 103.4
+    lane: 2
+    duration: 0
+  - time: 103.6
+    lane: 1
+    duration: 0
+  - time: 104.2
+    lane: 2
+    duration: 0
+  - time: 104.4
+    lane: 1
+    duration: 0
+  - time: 105
+    lane: 2
+    duration: 1
+  - time: 106
+    lane: 0
+    duration: 0
+  - time: 106.2
+    lane: 0
+    duration: 0
+  - time: 106.8
+    lane: 2
+    duration: 0
+  - time: 107.4
+    lane: 2
+    duration: 0
+  - time: 108
+    lane: 1
+    duration: 0
+  - time: 108.6
+    lane: 0
+    duration: 0
+  - time: 109.2
+    lane: 2
+    duration: 0
+  - time: 109.8
+    lane: 1
+    duration: 0
+  - time: 110.4
+    lane: 0
+    duration: 0
+  - time: 111
+    lane: 2
+    duration: 0
+  - time: 111.6
+    lane: 1
+    duration: 6
+  - time: 135
+    lane: 0
+    duration: 0
+  - time: 135.2
+    lane: 0
+    duration: 0
+  - time: 136.2
+    lane: 0
+    duration: 0
+  - time: 136.4
+    lane: 0
+    duration: 0
+  - time: 137.4
+    lane: 1
+    duration: 0
+  - time: 137.6
+    lane: 1
+    duration: 0
+  - time: 138.6
+    lane: 2
+    duration: 0
+  - time: 138.8
+    lane: 2
+    duration: 0
+  - time: 139.8
+    lane: 0
+    duration: 0
+  - time: 140
+    lane: 0
+    duration: 0
+  - time: 141
+    lane: 0
+    duration: 0
+  - time: 141.2
+    lane: 0
+    duration: 0
+  - time: 142.2
+    lane: 1
+    duration: 0
+  - time: 142.4
+    lane: 1
+    duration: 0
+  - time: 143.4
+    lane: 2
+    duration: 0
+  - time: 144.2
+    lane: 0
+    duration: 0
+  - time: 144.4
+    lane: 0
+    duration: 0
+  - time: 145.6
+    lane: 0
+    duration: 0
+  - time: 145.8
+    lane: 0
+    duration: 0
+  - time: 146.8
+    lane: 1
+    duration: 0
+  - time: 147
+    lane: 1
+    duration: 0
+  - time: 148
+    lane: 2
+    duration: 0
+  - time: 148.2
+    lane: 2
+    duration: 0
+  - time: 149.2
+    lane: 0
+    duration: 0
+  - time: 149.4
+    lane: 0
+    duration: 0
+  - time: 150.4
+    lane: 0
+    duration: 0
+  - time: 150.6
+    lane: 0
+    duration: 0
+  - time: 151.6
+    lane: 1
+    duration: 0
+  - time: 151.8
+    lane: 1
+    duration: 0
+  - time: 152.8
+    lane: 2
+    duration: 0
+  - time: 153
+    lane: 2
+    duration: 0
+  - time: 153.6
+    lane: 0
+    duration: 0
+  - time: 153.8
+    lane: 0
+    duration: 0
+  - time: 154.8
+    lane: 0
+    duration: 0
+  - time: 155
+    lane: 0
+    duration: 0
+  - time: 156
+    lane: 1
+    duration: 0
+  - time: 156.2
+    lane: 1
+    duration: 0
+  - time: 157.2
+    lane: 2
+    duration: 0
+  - time: 157.4
+    lane: 2
+    duration: 0
+  - time: 158.4
+    lane: 0
+    duration: 0
+  - time: 158.6
+    lane: 0
+    duration: 0
+  - time: 159.6
+    lane: 0
+    duration: 0
+  - time: 159.8
+    lane: 0
+    duration: 0
+  - time: 160.8
+    lane: 1
+    duration: 0
+  - time: 161
+    lane: 1
+    duration: 0
+  - time: 162
+    lane: 2
+    duration: 0
+  - time: 162.2
+    lane: 2
+    duration: 0
+  - time: 163
+    lane: 0
+    duration: 0
+  - time: 163.2
+    lane: 0
+    duration: 0
+  - time: 164.2
+    lane: 0
+    duration: 0
+  - time: 164.4
+    lane: 0
+    duration: 0
+  - time: 165.4
+    lane: 1
+    duration: 0
+  - time: 165.6
+    lane: 1
+    duration: 0
+  - time: 166.6
+    lane: 2
+    duration: 0
+  - time: 166.8
+    lane: 2
+    duration: 0
+  - time: 167.8
+    lane: 0
+    duration: 0
+  - time: 168
+    lane: 0
+    duration: 0
+  - time: 169
+    lane: 0
+    duration: 0
+  - time: 169.2
+    lane: 0
+    duration: 0
+  - time: 170.2
+    lane: 1
+    duration: 0
+  - time: 170.4
+    lane: 1
+    duration: 0
+  - time: 171.4
+    lane: 2
+    duration: 0
+  - time: 172
+    lane: 0
+    duration: 1

@@ -15,4 +15,4 @@ MonoBehaviour:
   musicNotes:
   - time: 1
     lane: 0
-    duration: 5
+    duration: 2

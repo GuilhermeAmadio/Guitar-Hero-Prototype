@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3250967098363867656}
   - component: {fileID: 5086576310707725530}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Collision
   m_TagString: Note
   m_Icon: {fileID: 0}
@@ -45,7 +45,7 @@ SphereCollider:
     m_Bits: 0
   m_ExcludeLayers:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 64
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
   m_ProvidesContacts: 0
@@ -63,7 +63,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1592765243896813338}
   - component: {fileID: 807989771951059885}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Sphere
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -116,7 +116,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8853167329467889264}
   - component: {fileID: 9055442483810637331}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Sprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -201,8 +201,7 @@ GameObject:
   - component: {fileID: 4252927772321330724}
   - component: {fileID: 6490933676694751802}
   - component: {fileID: 5543352399579235340}
-  - component: {fileID: 5204364391190941168}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Duration
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -219,7 +218,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0.21130905, y: -0.21130905, z: -0.046846062, w: 0.953154}
   m_LocalPosition: {x: 0.005, y: 0.024, z: -0.01}
-  m_LocalScale: {x: 0.5, y: -0.1, z: 0}
+  m_LocalScale: {x: 0.5, y: -0.1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 7900052360324577740}
@@ -274,27 +273,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &5204364391190941168
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7458873853061911693}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &7694006062568100756
 GameObject:
   m_ObjectHideFlags: 0
@@ -307,7 +285,7 @@ GameObject:
   - component: {fileID: 3945202451379953008}
   - component: {fileID: 3284473064381680437}
   - component: {fileID: 9032266094335179724}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Note
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -352,13 +330,13 @@ Rigidbody:
     m_Bits: 0
   m_ExcludeLayers:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 64
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
   m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 112
   m_CollisionDetection: 0
 --- !u!114 &3284473064381680437
 MonoBehaviour:
@@ -375,7 +353,11 @@ MonoBehaviour:
   duration: 0
   pressingTimer: 0
   pressing: 0
-  durationScale: 11
+  baseScore: {fileID: 11400000, guid: 01f51d396fbc4304889e4bcf683b0550, type: 2}
+  baseBonusScore: {fileID: 11400000, guid: dc3a4ad9259c69f4aa1e23c7d2bc2f66, type: 2}
+  noteScale: 1.42
+  noteMove: {fileID: 9032266094335179724}
+  sprite: {fileID: 8853167329467889264}
   durationTransform: {fileID: 4252927772321330724}
 --- !u!114 &9032266094335179724
 MonoBehaviour:

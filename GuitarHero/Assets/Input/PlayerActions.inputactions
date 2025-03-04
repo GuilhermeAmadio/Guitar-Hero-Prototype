@@ -76,6 +76,33 @@
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": false
+                },
+                {
+                    "name": "Ready/StartGameKeyboard",
+                    "type": "Button",
+                    "id": "1593445e-b63c-48fd-97cc-bb8114f786aa",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Ready/StartGameGamepad",
+                    "type": "Button",
+                    "id": "7f922413-788e-45d9-8245-94c4d2ef41cd",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "ReadyPlayer",
+                    "type": "Button",
+                    "id": "b3ef533b-01c5-4c12-8f99-737e77516f76",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
                 }
             ],
             "bindings": [
@@ -83,6 +110,17 @@
                     "name": "",
                     "id": "85a7c898-0288-4304-9c4d-33a74383c8d4",
                     "path": "<Keyboard>/q",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Lane0",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "42b9356a-b476-45ef-a5e3-d2182906a9c7",
+                    "path": "<Gamepad>/leftShoulder",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
@@ -103,6 +141,17 @@
                 },
                 {
                     "name": "",
+                    "id": "400da316-afbe-432d-8d87-2a6858652d42",
+                    "path": "<Gamepad>/leftTrigger",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Lane1",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
                     "id": "fa7e3cd9-2abb-421b-84ae-93755bba8cb4",
                     "path": "<Keyboard>/e",
                     "interactions": "",
@@ -114,8 +163,30 @@
                 },
                 {
                     "name": "",
+                    "id": "499dab1c-45b4-4b85-9b82-4e6a1a725c3c",
+                    "path": "<Gamepad>/rightShoulder",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Lane2",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
                     "id": "4cd0932b-a231-4551-8750-f676007a2042",
                     "path": "<Keyboard>/r",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Lane3",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "76bf3e07-83a2-4445-89c9-632e98a4ccd1",
+                    "path": "<Gamepad>/rightTrigger",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
@@ -164,6 +235,50 @@
                     "processors": "",
                     "groups": "",
                     "action": "Player2Lane3",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "98c41a40-f6f1-4f5b-b73c-26e7e01ec0c7",
+                    "path": "<Keyboard>/enter",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Ready/StartGameKeyboard",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "a009cb7d-f0fc-4f0e-bef9-5dbdc5c55a4c",
+                    "path": "<Gamepad>/start",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Ready/StartGameGamepad",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "e44c4f65-7b21-43e3-9d07-132bdb413f0d",
+                    "path": "<Keyboard>/enter",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "ReadyPlayer",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "80c2aeb9-7bfc-490e-ba6d-cca9a123b1bb",
+                    "path": "<Gamepad>/start",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "ReadyPlayer",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }

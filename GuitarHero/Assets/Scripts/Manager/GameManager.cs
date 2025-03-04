@@ -8,24 +8,32 @@ public class GameManager : MonoBehaviour
     [SerializeField] private FloatSO speedNote;
 
     [SerializeField] private SpawnManager[] spawnManagers;
+    [SerializeField] private GameObject panel;
+    [SerializeField] private GameObject[] press, ready;
 
     [SerializeField] private MusicPlayer musicPlayer;
 
     private MusicSO music;
-    private MusicNote[] musicNotes, copyMusicNotes;
+    private MusicNote[] musicNotes;
 
     private bool playingSong;
+    private float endMusic;
+    [SerializeField] private int numberOfPlayers;
 
     private void Start()
     {
         music = musicToPlay.GetMusic();
         musicNotes = music.GetMusicNotes().GetNotes();
+        endMusic = music.GetEndMusic();
 
         foreach (MusicNote note in musicNotes)
         {
             note.StartMusic();
         }
+    }
 
+    public void StartGame()
+    {
         StartCoroutine(WaitForStart());
     }
 
@@ -44,20 +52,44 @@ public class GameManager : MonoBehaviour
                     note.Spawn();
                 }
             }
+
+            if (currentTime >= endMusic)
+            {
+                PlayerManager.instance.Result();
+            }
         }
     }
 
     public void SpawnNote(MusicNote note)
     {
-        foreach (var spawnManager in spawnManagers)
+        for (int i = 0; i < numberOfPlayers; i++) 
         {
-            spawnManager.SpawnNote(note);
+            spawnManagers[i].SpawnNote(note);
+        }
+    }
+
+    public void NewPlayer()
+    {
+        if (press != null)
+        {
+            press[numberOfPlayers].SetActive(false);
+            ready[numberOfPlayers].SetActive(true);
+        }
+
+        numberOfPlayers++;
+
+        if (numberOfPlayers == 2)
+        {
+            StartGame();
         }
     }
 
     private IEnumerator WaitForStart()
     {
-        yield return new WaitForSeconds(1);
+        yield return new WaitForSeconds(2);
+
+        if (panel != null)    
+            panel.SetActive(false);
 
         musicPlayer.PlayMusic(music.GetAudioClip());
 

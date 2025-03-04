@@ -6,6 +6,8 @@ public class HitNote : MonoBehaviour
 {
     [SerializeField] private GameObject pressed, flame;
 
+    [SerializeField] private PlayerScore playerScore;
+
     private GameObject note;
 
     private bool hitting, perfecting, pressing;
@@ -26,13 +28,15 @@ public class HitNote : MonoBehaviour
     {
         if (hitting)
         {
-            note.GetComponentInParent<Note>().HitNote();
+            note.GetComponentInParent<Note>().HitNote(this, perfecting);
+
+            playerScore.Hit();
 
             hitting = false;
 
             if (perfecting)
             {
-                Debug.Log("Perfect!");
+                playerScore.Perfect();
 
                 StartCoroutine(Flame());
 
@@ -40,13 +44,21 @@ public class HitNote : MonoBehaviour
 
                 return;
             }
-
-            Debug.Log("Hit!");
         }
         else
         {
-            Debug.Log("Errou");
+            playerScore.Miss();
         }
+    }
+
+    public void Scored(int amount)
+    {
+        playerScore.Scored(amount);
+    }
+
+    public void Miss()
+    {
+        playerScore.Miss();
     }
 
     public void Hit(GameObject note)
@@ -74,6 +86,11 @@ public class HitNote : MonoBehaviour
         {
             note.GetComponentInParent<Note>().ReleaseNote();
         }
+    }
+
+    public Note GetNote()
+    {
+        return note.GetComponentInParent<Note>();
     }
 
     private IEnumerator Flame()

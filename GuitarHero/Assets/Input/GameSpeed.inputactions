@@ -1,0 +1,74 @@
+{
+    "name": "GameSpeed",
+    "maps": [
+        {
+            "name": "ChanceSpeed",
+            "id": "0b24597b-8992-420c-a300-c922ce70742f",
+            "actions": [
+                {
+                    "name": "NormalSpeed",
+                    "type": "Button",
+                    "id": "a8049f84-1efe-41b3-b620-790dea83a818",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "2x",
+                    "type": "Button",
+                    "id": "9f7fbe43-e1d7-485b-88c9-fabcdcd79b89",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "3x",
+                    "type": "Button",
+                    "id": "190eb5cf-536d-44f2-89da-e35b19f09ddd",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "1032cac2-42cb-49fd-bc5f-d3dc583f47d9",
+                    "path": "<Keyboard>/1",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "NormalSpeed",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "dcde9441-e22a-4674-b12a-eff07870f79d",
+                    "path": "<Keyboard>/2",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "2x",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "7642a6de-6890-4067-9c94-df55bff8af8a",
+                    "path": "<Keyboard>/3",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "3x",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}

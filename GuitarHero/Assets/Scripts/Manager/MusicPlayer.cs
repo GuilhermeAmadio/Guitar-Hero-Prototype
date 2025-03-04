@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class MusicPlayer : MonoBehaviour
 {
+    [SerializeField] private float initialTime;
+
     private AudioSource audioSource;
 
     private void Awake()
@@ -16,6 +18,7 @@ public class MusicPlayer : MonoBehaviour
         audioSource.clip = clip;
 
         audioSource.Play();
+        audioSource.time = initialTime;
     }
 
     public float GetMusicTime()
